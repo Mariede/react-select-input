@@ -74,7 +74,14 @@ import SelectInput from 'components/_common/_form/SelectInput';
 				<div id="unidade" data-value={ formElements.unidade }>
 					<SelectInput
 						optionsData={ data.options && data.options.unidades }
-						optionsKeys={ { id: 'id', name: 'nomeUnidade', description1: 'siglaUnidade', active: 'ativo' } }
+						optionsKeys={
+							{
+								id: 'id',
+								name: 'nomeUnidade',
+								description1: 'siglaUnidade',
+								active: 'ativo'
+							}
+						}
 						optionSelected={ formElements.unidade }
 						id="unidade"
 						handleFormElements={ handleFormElements }
