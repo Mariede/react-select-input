@@ -30,7 +30,7 @@ React component for a custom HTML form select element - integrated, searchable d
 	- **active**: Boolean optional, show or not current option (default show)
 
 - **optionsSelected**: current element selected option
-	- no ARRAY permitted, only empty strings or primitive current values
+	- no ARRAY permitted, only empty strings or primitive values
 
 - **id**: React form element ID
 
