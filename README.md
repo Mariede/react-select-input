@@ -70,22 +70,20 @@ import SelectInput from 'components/_common/_form/SelectInput';
 	<Row form>
 		<Col md={ 12 }>
 			<FormGroup>
-				<div id="unidade" data-value={ formElements.unidade }>
-					<SelectInput
-						optionsData={ data.options && data.options.unidades }
-						optionsKeys={
-							{
-								id: 'id',
-								name: 'nomeUnidade',
-								description1: 'siglaUnidade',
-								active: 'ativo'
-							}
+				<SelectInput
+					optionsData={ data.options && data.options.unidades }
+					optionsKeys={
+						{
+							id: 'id',
+							name: 'nomeUnidade',
+							description1: 'siglaUnidade',
+							active: 'ativo'
 						}
-						optionSelected={ formElements.unidade }
-						id="unidade"
-						handleFormElements={ handleFormElements }
-					/>
-				</div>
+					}
+					optionSelected={ formElements.unidade }
+					id="unidade"
+					handleFormElements={ handleFormElements }
+				/>
 			</FormGroup>
 		</Col>
 	</Row>
