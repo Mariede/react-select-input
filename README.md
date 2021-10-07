@@ -6,8 +6,9 @@ React component for a custom HTML form select element
 
 ## Dependencies
 
-- React
-- Reactstrap
+- React (used 17.0.2)
+- Reactstrap (used 8.10.0)
+- Font Awesome (used 5.9.0)
 - function module (helper)
 
 ## Component input (props)
