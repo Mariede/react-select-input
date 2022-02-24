@@ -1,6 +1,6 @@
 # SELECT-INPUT
 
-React component for a custom HTML form select element - integrated, searchable data, responsive
+React component: custom HTML form select element for a high volume of data - integrated, searchable, responsive
 
 > ![](_media-readme/img-react-select-input.png)
 
